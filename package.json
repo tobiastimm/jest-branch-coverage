@@ -1,0 +1,22 @@
+{
+  "name": "jest-branch-coverage",
+  "version": "0.0.0",
+  "description": "Outputs the test-coverage of a certain branch",
+  "bin": {
+    "jest-branch-coverage": "./bin/jest-branch-coverage.js"
+  },
+  "author": "Tobias Timm <tobias.timm@prosiebensat1digital.de>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "execa": "^4.0.1",
+    "folktale": "^2.3.2",
+    "meow": "^7.0.1",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
